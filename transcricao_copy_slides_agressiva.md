@@ -11,7 +11,7 @@
   > *"PROMESSA COMERCIAL: Colocar R$ 100.000,00 em novos contratos de pacotes todos os meses no caixa da Azul Viagens Matão recuperando as cotações que hoje esfriam no WhatsApp."*
 * **Descrição Editorial:** A infraestrutura comercial autônoma que atende clientes em 5 segundos, elimina a perda de vendas no balcão e corta custos inúteis de software sem você precisar inflar a folha com funcionários CLT.
 * **Badges:** `Meta da Franquia: 100% Batida` | `Atendimento: Sofia 24/7 Ativa`
-* **Mídia:** Vídeo WebM animado do ecossistema de conexão nativa.
+* **Mídia:** Vídeo WebM animado do ecossistema de conexão nativa (`assets/fm-conectar-v1.webm`).
 
 ---
 
@@ -140,31 +140,36 @@
 
 ---
 
-### SLIDE 13 · A PROPOSTA COMERCIAL, OS 3 PORQUÊS & CONDIÇÃO ESPECIAL DE HOJE
+### SLIDE 13 · A PROPOSTA COMERCIAL, FAST-ACTION & FAQ MATADOR DE MICRO-OBJEÇÕES
 * **Kicker:** PROPOSTA OFICIAL / START IMEDIATO
 * **Badge Oficial:** `• CONDIÇÃO ESPECIAL DE FECHAMENTO HOJE`
 * **Título Principal:** A DECISÃO COMERCIAL MAIS LUCRATIVA DO SEU ANO
 * **Condição de Início Imediato:**
-  * **Setup Completo Chave na Mão:** R$ 3.500,00 *(Âncora de Mercado: R$ 15.000,00)*.
+  * **Setup Completo Chave na Mão:** R$ 3.500,00 *(Âncora de Mercado: R$ 15.000,00 · Economia de R$ 11.500)*.
   * **Entrada de R$ 2.000,00 via PIX HOJE** *(start técnico imediato nos servidores e Sofia)*.
-  * **Saldo de R$ 1.500,00 em 30 dias** *(ou após a primeira venda validada pelo sistema)*.
-* **Bônus Imediato de Caixa:** Disparo de reativação da carteira antiga.
-* **Garantia de Payoff:** 1 único pacote de viagem recuperado no WhatsApp já paga 100% da implementação.
-* **Os 3 Motivos Estratégicos desta Condição:**
-  1. **Case Modelo Regional:** Validar a inteligência na melhor agência de turismo da cidade.
-  2. **Parceria de Expansão (com o Sócio):** Empacotar essa máquina comercial para oferecer em parceria para outras franquias Azul Viagens pelo estado.
-  3. **Presença Física de 30 Dias:** Acompanhamento presencial lado a lado na agência para calibrar os prompts e garantir o ROI.
+  * **Saldo de R$ 1.500,00 em 30 dias** *(somente após o sistema rodando e a primeira venda validada)*.
+* **Presente de Ação Imediata (Fast-Action Box):** Fechando e dando o start hoje, disparo de reativação imediata da base antiga de clientes sem custo extra de anúncio + acompanhamento presencial de 30 dias na agência.
+* **FAQ Matador de Micro-Objeções (Grid de 4 Cards):**
+  1. *Preciso de muita verba para anúncios locais?* → Não, com R$ 15 a R$ 20/dia já cobrimos a cidade e atraímos de 15 a 25 famílias qualificadas.
+  2. *Vou precisar mexer em tecnologia ou servidor?* → Zero esforço técnico. Lucas assume 100% dos bastidores.
+  3. *E se o cliente fizer uma pergunta muito específica?* → Sofia faz a passagem de bastão inteligente para a Maristela.
+  4. *Por que entrada de R$ 2.000 e saldo após 30 dias?* → Porque só o corte do CRM antigo economiza R$ 4.800/ano, cobrindo o setup e deixando R$ 1.300 no caixa.
 * **Matemática do Caixa:** O corte dos R$ 4.800/ano do CRM legado cobre o setup de R$ 3.500 e deixa **+R$ 1.300,00 de lucro líquido** no bolso da franquia.
 
 ---
 
-### SLIDE 14 · BLINDAGEM DE FECHAMENTO & QUEBRA DE OBJEÇÕES PRESENCIAIS
-* **Kicker:** BLINDAGEM COMERCIAL / RESPOSTAS DIRETAS & MATADORAS
-* **Título Principal:** RESPOSTAS DIRETAS PARA AS 3 PRINCIPAIS DÚVIDAS
-* **As 3 Objeções Reais do Passo 6 com Contra-ataque Imediato:**
-  * **Dúvida 1 · "Deixa eu conversar com meu marido / sócio com calma":**
-    * *Contra-ataque:* Ele tem toda razão em participar! Foi dele a visão de marketing e expansão. Podemos chamá-lo 5 minutos ou mandar um áudio de 1 minuto mostrando que só a economia de R$ 400 do CRM já financia tudo e que vamos validar a máquina para expandir juntos para outras agências.
-  * **Dúvida 2 · "Tenho medo de ficar dependente de tecnologia e o sistema travar":**
-    * *Contra-ataque:* Eu moro literalmente na rua de trás da agência. Qualquer dúvida ou ajuste, levo 2 minutos a pé para estar dentro da sua loja ao seu lado. Você terá suporte presencial prioritário nos primeiros 30 dias.
-  * **Dúvida 3 · "R$ 2.000 de entrada hoje fica apertado no meu caixa agora":**
-    * *Contra-ataque:* Cada semana sem a Sofia são de 2 a 3 cotações perdidas no balcão — isso é perder R$ 20.000 em vendas todo mês. Continuar sem o sistema custa 10 vezes mais caro do que a entrada de R$ 2.000. Se necessário, parcelamos a entrada no cartão, mas não faz sentido continuar perdendo clientes hoje.
+### SLIDE 14 · PROPOSTA COMERCIAL OFICIAL DE PRESTAÇÃO DE SERVIÇOS
+* **Formato:** Documento Executivo Formalizado (Folha Contratual A4 / Sheet Executiva com Tabelas).
+* **Estrutura Contratual Completa:**
+  * **Tabela de Cabeçalho / Identificação das Partes:** Prestador (Lucas · Estruturação Comercial & Automação Inteligente) vs Contratante (Maristela · Azul Viagens Matão). Proposta Nº 2026-AVM01. Validade: 7 dias úteis.
+  * **Seção 1: Objeto da Proposta:** Criação, implantação técnica, gestão e operação do Sistema Comercial Autônomo com Sofia SDR 24/7, CRM Integrado e Tráfego Local.
+  * **Seção 2: Quadro Detalhado de Entregáveis:**
+    * Pilar 01: Atração Qualificada & Tráfego Local (Meta Ads + Google Ads + FunnelMax).
+    * Pilar 02: Sofia SDR 24/7 (Triagem Humana em 5s, sem emojis, coleta de crianças e datas).
+    * Pilar 03: CRM Nativo & Economia de Software (Kanban automático, economia de R$ 4.800/ano).
+    * Pilar 04: Pós-Venda & Máquina de LTV (+R$ 40k a R$ 60k/ano em vendas da base antiga).
+    * Pilar 05: Servidor 24/7 Dedicado & Acompanhamento Presencial de 30 Dias na agência.
+  * **Seção 3: Quadro de Investimento & Condições Financeiras:** Setup R$ 3.500 (R$ 2.000 PIX hoje + R$ 1.500 em 30 dias). Retorno Contábil Garantido (+R$ 4.800/ano).
+  * **Seção 4: Cronograma de Ativação & Prazos Operacionais (SLA):** Semana 1 Setup e Servidor; Semana 2 Calibração Sofia e CRM; Semana 3+ Tráfego Ativo e Fechamento no Balcão.
+  * **Seção 5: Termo de Aceite & Assinatura das Partes:** Assinatura digital do Lucas e confirmação eletrônica da Maristela.
+  * **Botão Oficial de Ação:** `Aceitar Proposta Comercial & Iniciar pelo WhatsApp`.

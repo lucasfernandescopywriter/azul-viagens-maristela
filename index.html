@@ -376,9 +376,7 @@
       display: block;
     }
 
-    /* ============================================================
-       SLIDE 05: REDESIGN DA AUDITORIA DO CRM ANTIGO (MATRIZ VISUAL)
-    ============================================================ */
+    /* SLIDE 05: MATRIZ VISUAL CRM ANTIGO VS NATIVO */
     .crm-matrix-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -449,9 +447,7 @@
       flex-shrink: 0;
     }
 
-    /* ============================================================
-       SLIDE 06: MAPA MENTAL EM TEMA CLARO (LIGHT THEME)
-    ============================================================ */
+    /* SLIDE 06: MAPA MENTAL EM TEMA CLARO */
     .mindmap-light-container {
       background: #F8FAFC;
       border-radius: var(--radius-card);
@@ -516,7 +512,6 @@
       padding: 1rem 0;
     }
 
-    /* Nó Raiz Claro */
     .mm-root-node-light {
       background: linear-gradient(135deg, #003399 0%, #0052CC 100%);
       border: 2px solid #0052CC;
@@ -561,7 +556,6 @@
       position: relative;
     }
 
-    /* Cartão do Pilar no Tema Claro */
     .mm-pillar-node-light {
       background: #FFFFFF;
       border: 1px solid var(--border-light);
@@ -672,9 +666,7 @@
       z-index: 1;
     }
 
-    /* ============================================================
-       SLIDE 08: WHATSAPP DESKTOP & MOBILE INTERATIVO
-    ============================================================ */
+    /* SLIDE 08: WHATSAPP DESKTOP & MOBILE */
     .mac-whatsapp-window {
       background: #FFFFFF;
       border: 1px solid var(--border-light);
@@ -828,9 +820,7 @@
 
     .wa-check { color: #53BDEB; font-weight: 700; }
 
-    /* ============================================================
-       SLIDE 10: CUSTOM DASHBOARD ANIMADO (AZUL VIAGENS MATÃO)
-    ============================================================ */
+    /* SLIDE 10: CUSTOM DASHBOARD ANIMADO */
     .custom-dash-box {
       background: #0F172A;
       border: 1px solid #1E293B;
@@ -926,9 +916,7 @@
       border-radius: 4px;
     }
 
-    /* ============================================================
-       SLIDE 12: O PACTO DE COMPROMETIMENTO (GATE CHECKLIST)
-    ============================================================ */
+    /* SLIDE 12: O PACTO DE COMPROMETIMENTO (GATE CHECKLIST) */
     .pact-box {
       max-width: 740px;
       margin: 0 auto;
@@ -1049,6 +1037,171 @@
       margin-top: 1rem;
     }
 
+    /* ============================================================
+       SLIDE 13: FAST-ACTION BOX & FAQ DESIGN SYSTEM (ESTILO CAMILA)
+    ============================================================ */
+    .fast-action-box {
+      background: linear-gradient(135deg, rgba(250, 204, 21, 0.12) 0%, rgba(245, 158, 11, 0.08) 100%);
+      border: 1px solid #FDE68A;
+      border-radius: var(--radius-card);
+      padding: 0.9rem 1.3rem;
+      margin-top: 1rem;
+      text-align: left;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 1.15rem;
+      text-align: left;
+    }
+
+    .faq-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      transition: all 0.2s ease;
+    }
+
+    .faq-card:hover {
+      border-color: #CBD5E1;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .faq-question {
+      font-weight: 800;
+      color: var(--ink-dark);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.81rem;
+    }
+
+    .faq-answer {
+      color: var(--ink-secondary);
+      font-size: 0.76rem;
+      line-height: 1.48;
+    }
+
+    /* ============================================================
+       SLIDE 14: DOCUMENTO EXECUTIVO FORMAL (ESTILO CAMILA)
+    ============================================================ */
+    .doc-preview-wrapper {
+      background: #F1F5F9;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-card);
+      padding: 1.25rem;
+      max-height: 500px;
+      overflow-y: auto;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    .doc-sheet {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 8px;
+      padding: 2.2rem 2.5rem;
+      color: #0F172A;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+      max-width: 860px;
+      margin: 0 auto;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    .doc-meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1.15rem;
+      border: 1.5px solid #003399;
+      background: #FFFFFF;
+    }
+
+    .doc-meta-table td {
+      padding: 10px 14px;
+      border: 1px solid #E2E8F0;
+      vertical-align: top;
+      font-size: 0.74rem;
+      line-height: 1.5;
+    }
+
+    .doc-section-h3 {
+      font-size: 0.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #003399;
+      margin: 1.25rem 0 0.5rem;
+      padding-bottom: 3px;
+      border-bottom: 1.5px solid #E2E8F0;
+    }
+
+    .doc-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.65rem 0 1.15rem;
+      font-size: 0.76rem;
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 6px;
+    }
+
+    .doc-table th {
+      background: #F8FAFC;
+      color: #0F172A;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 0.67rem;
+      letter-spacing: 0.05em;
+      padding: 8px 12px;
+      border: 1px solid #E2E8F0;
+      text-align: left;
+    }
+
+    .doc-table td {
+      padding: 9px 12px;
+      border: 1px solid #E2E8F0;
+      color: #334155;
+      line-height: 1.5;
+      vertical-align: top;
+    }
+
+    .doc-table tr:nth-child(even) {
+      background: #FAFCFE;
+    }
+
+    .doc-table tr.highlight-row {
+      background: #EFF6FF;
+    }
+
+    .doc-table tr.highlight-row td {
+      border-color: #BFDBFE;
+    }
+
+    .badge-recommended {
+      background: #ECFDF5;
+      color: #065F46;
+      border: 1px solid #A7F3D0;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: var(--radius-pill);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      display: inline-block;
+      margin-top: 2px;
+    }
+
     /* 4. DOCK FLUTUANTE DO macOS */
     .mac-dock-container {
       position: fixed;
@@ -1127,7 +1280,6 @@
 
     /* ============================================================
        RESPONSIVIDADE TOTAL: MOBILE, TABLET & DESKTOP
-       Garante que todos os 14 slides funcionem 100% no celular
     ============================================================ */
     @media (max-width: 1024px) {
       .mac-desktop-area {
@@ -1146,7 +1298,6 @@
         overflow-y: auto;
       }
 
-      /* Barra de Menu do macOS compacta */
       .mac-menubar {
         padding: 0 10px;
         font-size: 0.72rem;
@@ -1159,7 +1310,6 @@
         display: none;
       }
 
-      /* Janela macOS fluida */
       .mac-desktop-area {
         padding: 6px 6px 75px 6px;
         align-items: flex-start;
@@ -1192,7 +1342,6 @@
         justify-content: flex-start;
       }
 
-      /* Tipografia Editorial Mobile */
       .proposal-h1 {
         font-size: 1.45rem !important;
         line-height: 1.22 !important;
@@ -1223,13 +1372,11 @@
         flex-wrap: wrap;
       }
 
-      /* Grids Adaptáveis: Todas as colunas empilham elegantemente */
-      .grid-2, .grid-3, .grid-4, .crm-matrix-grid {
+      .grid-2, .grid-3, .grid-4, .crm-matrix-grid, .faq-grid {
         grid-template-columns: 1fr !important;
         gap: 0.85rem !important;
       }
 
-      /* Imagens e Vídeos Mobile */
       .video-frame-editorial, .img-frame-editorial {
         max-height: 220px !important;
         width: 100% !important;
@@ -1237,7 +1384,7 @@
         border-radius: 8px !important;
       }
 
-      /* Slide 6: Mapa Mental Mobile com Scroll Touch */
+      /* Slide 6: Mapa Mental Mobile */
       .mindmap-light-container {
         padding: 0.75rem 0.5rem !important;
         overflow-x: auto !important;
@@ -1271,7 +1418,7 @@
         font-size: 0.72rem !important;
       }
 
-      /* Slide 8: WhatsApp Mobile com Seletor Superior */
+      /* Slide 8: WhatsApp Mobile */
       .mac-whatsapp-window {
         grid-template-columns: 1fr !important;
         height: auto !important;
@@ -1296,8 +1443,6 @@
         padding: 5px 10px !important;
         border-radius: 20px !important;
         border: 1px solid var(--border-light) !important;
-        border-bottom: 1px solid var(--border-light) !important;
-        border-left: 1px solid var(--border-light) !important;
         flex-shrink: 0 !important;
         background: #FFFFFF !important;
       }
@@ -1331,7 +1476,7 @@
         padding: 6px 9px !important;
       }
 
-      /* Slide 9: Stack Entregáveis */
+      /* Slide 9: Stack */
       .slide-9-layout {
         display: flex !important;
         flex-direction: column !important;
@@ -1381,21 +1526,32 @@
         padding: 12px 10px !important;
       }
 
-      /* Slide 13: Preço Mobile */
+      /* Slide 13: Preço, Fast-action & FAQ Mobile */
       .price-box-card {
         padding: 1.15rem 1rem !important;
       }
       .price-main-val {
         font-size: 2rem !important;
       }
-      .price-reasons-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0.65rem !important;
+      .fast-action-box {
+        padding: 0.75rem 0.85rem !important;
+      }
+      .faq-card {
+        padding: 10px 12px !important;
       }
 
-      /* Slide 14: Objeções Mobile */
-      .objection-card {
-        padding: 0.85rem !important;
+      /* Slide 14: Documento Formal Executivo Mobile */
+      .doc-preview-wrapper {
+        padding: 0.4rem !important;
+        max-height: 480px !important;
+      }
+      .doc-sheet {
+        padding: 1.25rem 0.95rem !important;
+        font-size: 0.74rem !important;
+      }
+      .doc-table th, .doc-table td {
+        padding: 7px 8px !important;
+        font-size: 0.7rem !important;
       }
 
       /* Dock Flutuante Mobile */
@@ -1739,7 +1895,6 @@
               </div>
             </div>
 
-            <!-- Canvas com Conexões Bézier SVG -->
             <div class="mindmap-canvas-light" id="mindmapCanvasLight">
               <svg class="mm-svg-canvas-light" id="mindmapSvgLight"></svg>
 
@@ -1894,7 +2049,6 @@
 
           <div class="mac-whatsapp-window">
             
-            <!-- Sidebar com 3 Contatos -->
             <div class="wa-sidebar">
               <div class="wa-sidebar-header">
                 <span>Conversas Recentes</span>
@@ -1929,7 +2083,6 @@
               </div>
             </div>
 
-            <!-- Chat Area Dinâmica -->
             <div class="wa-main-chat">
               <div class="wa-chat-header">
                 <div style="display: flex; align-items: center; gap: 10px;">
@@ -1942,7 +2095,6 @@
                 <div style="font-size: 0.72rem; color: #54656F; font-weight: 600;">Azul Viagens Matão</div>
               </div>
 
-              <!-- Container de Mensagens Rolável -->
               <div class="wa-messages-container" id="waMessagesBox"></div>
             </div>
 
@@ -2052,7 +2204,6 @@
             </div>
 
             <div>
-              <!-- Dashboard Customizado Azul Viagens Matão -->
               <div class="custom-dash-box">
                 <div class="dash-header-bar">
                   <div style="font-size: 0.78rem; font-weight: 800; color: #38BDF8; text-transform: uppercase;">
@@ -2175,7 +2326,6 @@
               Maristela, antes de abrirmos os valores e a infraestrutura de ativação imediata, precisamos firmar 3 acordos fundamentais:
             </p>
 
-            <!-- Box do Checklist Interativo -->
             <div class="pact-box">
               <div class="pact-checklist">
                 
@@ -2225,7 +2375,6 @@
                 </button>
               </div>
 
-              <!-- Mensagem Alternativa Muito Obrigado -->
               <div class="thankyou-card" id="thankyouBox">
                 <div style="font-size: 1.1rem; font-weight: 800; color: var(--ink-dark); margin-bottom: 6px;">MUITO OBRIGADO PELA SUA TRANSPARÊNCIA, MARISTELA!</div>
                 <p style="font-size: 0.82rem; color: var(--ink-secondary); line-height: 1.5; max-width: 520px; margin: 0 auto;">
@@ -2239,7 +2388,8 @@
         </section>
 
         <!-- ==========================================
-             SLIDE 13: PREÇO OFICIAL, OS 3 PORQUÊS & CONDIÇÃO ESPECIAL DE HOJE
+             SLIDE 13: PREÇO, FAST-ACTION & FAQ MATADOR DE MICRO-OBJEÇÕES
+             (DESIGN SYSTEM IDÊNTICO AO DE CAMILA MORAES)
         =========================================== -->
         <section class="deck-slide" data-slide="13">
           <div style="text-align: center;">
@@ -2257,62 +2407,95 @@
             <h2 class="proposal-h1" style="margin-bottom: 0.35rem; font-size: 2.1rem; line-height: 1.15;">
               A DECISÃO COMERCIAL MAIS LUCRATIVA DO SEU ANO
             </h2>
-            <p class="proposal-desc" style="margin: 0 auto 1rem auto; max-width: 680px; font-size: 0.88rem; line-height: 1.45;">
-              Tudo pronto e rodando na sua agência em 7 dias com acompanhamento técnico prioritário.
+            <p class="proposal-desc" style="margin: 0 auto 1.15rem auto; max-width: 700px; font-size: 0.88rem; line-height: 1.45;">
+              Tudo pronto e rodando na sua agência em 7 dias com acompanhamento técnico prioritário e condições claras de investimento:
             </p>
 
             <!-- Card de Investimento no Padrão Business Proposal -->
-            <div class="price-box-card" style="max-width: 680px; margin: 0 auto 1.25rem; background: var(--ink-dark); border-radius: var(--radius-card); padding: 1.35rem 1.85rem; text-align: left; color: #FFFFFF; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
-              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 10px;">
+            <div class="price-box-card" style="max-width: 660px; margin: 0 auto; background: var(--ink-dark); border-radius: var(--radius-card); padding: 1.4rem 2rem; text-align: left; color: #FFFFFF; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 10px;">
                 <div>
                   <span style="font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-yellow); font-weight: 700;">Setup Completo Chave na Mão</span>
                   <div class="price-main-val" style="font-size: 2.4rem; font-weight: 800; color: #FFFFFF; letter-spacing: -0.04em; line-height: 1.1; margin-top: 2px;">
                     R$ 3.500<span style="font-size: 1.1rem; color: #94A3B8;">,00</span>
                   </div>
+                  <div style="font-size: 0.78rem; color: var(--accent-yellow); font-weight: 700; margin-top: 3px;">À vista no PIX hoje</div>
                 </div>
                 <div style="text-align: right;">
-                  <span style="font-size: 0.68rem; color: #94A3B8; text-decoration: line-through;">Valor Mercado</span>
-                  <div style="font-size: 0.88rem; font-weight: 700; color: #E2E8F0;">R$ 15.000,00</div>
+                  <span style="font-size: 0.68rem; color: #94A3B8; text-decoration: line-through;">Valor de Mercado</span>
+                  <div style="font-size: 0.92rem; font-weight: 700; color: #E2E8F0;">R$ 15.000,00</div>
+                  <div style="font-size: 0.68rem; color: #10B981; font-weight: 700; margin-top: 2px;">Economia de R$ 11.500</div>
                 </div>
               </div>
 
-              <div style="background: rgba(255, 255, 255, 0.08); border-radius: var(--radius-sm); padding: 10px 14px; font-size: 0.8rem; line-height: 1.5; color: #F8FAFC; margin-bottom: 0.75rem; border: 1px solid rgba(255, 255, 255, 0.1);">
-                <div style="font-weight: 800; color: #FFFFFF; margin-bottom: 3px; text-transform: uppercase;">Condição de Início Imediato Hoje:</div>
-                • <strong>Entrada de R$ 2.000,00 via PIX hoje</strong> (start técnico imediato nos servidores e Sofia).<br>
-                • <strong>Saldo de R$ 1.500,00 em 30 dias</strong> (ou após a primeira venda validada pelo sistema).
+              <div style="background: rgba(255, 255, 255, 0.08); border-radius: var(--radius-sm); padding: 12px 16px; font-size: 0.81rem; line-height: 1.55; color: #F8FAFC; margin-bottom: 0.85rem; border: 1px solid rgba(255, 255, 255, 0.1);">
+                <div style="font-weight: 800; color: #FFFFFF; margin-bottom: 4px; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.04em;">Condições Especiais de Pagamento:</div>
+                • <strong>Entrada Facilitada Hoje:</strong> R$ 2.000,00 no PIX (start técnico imediato nos servidores e Sofia).<br>
+                • <strong>Saldo em 30 Dias:</strong> R$ 1.500,00 em 30 dias (somente após o sistema rodando e a primeira venda validada).
               </div>
-
-              <p style="font-size: 0.74rem; color: #94A3B8; line-height: 1.4; margin-bottom: 0.75rem;">
-                <strong>Bônus Imediato de Caixa:</strong> Disparo de reativação da sua carteira de clientes antigos já nos primeiros dias para gerar vendas sem custo de anúncio.
-              </p>
 
               <div style="border-top: 1px dashed rgba(255,255,255,0.18); padding-top: 0.75rem; font-size: 0.82rem; font-weight: 700; color: var(--accent-yellow); text-align: center;">
                 1 único pacote de viagem recuperado no WhatsApp já paga 100% da implementação.
               </div>
             </div>
 
-            <!-- OS 3 MOTIVOS ESTRATÉGICOS DESTA CONDIÇÃO (DO PASSO 6) -->
-            <div style="max-width: 680px; margin: 0 auto; text-align: left;">
-              <div style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-secondary); margin-bottom: 6px; text-align: center;">
-                Por que estou fazendo essa condição especial para a sua franquia:
-              </div>
-              <div class="price-reasons-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-                <div class="card-clean" style="padding: 10px; background: #FFFFFF;">
-                  <strong style="font-size: 0.78rem; color: var(--azul-brand); display: block; margin-bottom: 2px;">1. Case Modelo Regional</strong>
-                  <span style="font-size: 0.72rem; color: var(--ink-secondary); line-height: 1.35; display: block;">Validar o sistema de turismo na melhor agência e vitrine da cidade.</span>
-                </div>
-                <div class="card-clean" style="padding: 10px; background: #FFFFFF;">
-                  <strong style="font-size: 0.78rem; color: var(--azul-brand); display: block; margin-bottom: 2px;">2. Parceria de Expansão</strong>
-                  <span style="font-size: 0.72rem; color: var(--ink-secondary); line-height: 1.35; display: block;">Empacotar essa máquina comercial para oferecer a outras franquias Azul Viagens.</span>
-                </div>
-                <div class="card-clean" style="padding: 10px; background: #FFFFFF;">
-                  <strong style="font-size: 0.78rem; color: var(--accent-emerald-text); display: block; margin-bottom: 2px;">3. Presença de 30 Dias</strong>
-                  <span style="font-size: 0.72rem; color: var(--ink-secondary); line-height: 1.35; display: block;">Acompanhamento presencial lado a lado na loja para garantir que as metas sejam batidas.</span>
+            <!-- Presente de Ação Imediata (Fast-Action Box) -->
+            <div style="max-width: 660px; margin: 0 auto;">
+              <div class="fast-action-box">
+                <svg class="icon-svg" style="width: 18px; height: 18px; color: #B45309; flex-shrink: 0; margin-top: 2px;" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                <div style="font-size: 0.79rem; color: #78350F; line-height: 1.45;">
+                  <strong>Presente de Ação Imediata (Start Hoje):</strong> Fechando e dando o start hoje, eu realizo a configuração e rodo o <strong>primeiro disparo de reativação da sua base antiga de clientes sem custo extra de anúncio</strong>, além de acompanhar os primeiros 30 dias presencialmente na sua agência!
                 </div>
               </div>
 
+              <!-- FAQ Matador de Micro-Objeções (Grid de 4 Cards) -->
+              <div class="faq-grid">
+                
+                <!-- FAQ 1 -->
+                <div class="faq-card">
+                  <div class="faq-question">
+                    <span style="color: var(--azul-brand);">P:</span> Preciso de muita verba para anúncios locais?
+                  </div>
+                  <div class="faq-answer">
+                    Não! No tráfego local de Matão e região, com apenas R$ 15 a R$ 20 por dia já cobrimos a cidade e atraímos de 15 a 25 famílias qualificadas buscando pacotes em 10x sem juros.
+                  </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-card">
+                  <div class="faq-question">
+                    <span style="color: var(--azul-brand);">P:</span> Vou precisar mexer em tecnologia ou servidor?
+                  </div>
+                  <div class="faq-answer">
+                    Zero esforço técnico para você. Eu sou o seu parceiro de bastidores: assumo 100% da infraestrutura, servidor 24/7 dedicado e calibração de prompts. Você e o balcão só entram para fechar os pacotes.
+                  </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-card">
+                  <div class="faq-question">
+                    <span style="color: var(--azul-brand);">P:</span> E se o cliente fizer uma pergunta muito específica?
+                  </div>
+                  <div class="faq-answer">
+                    A Sofia é treinada para triagem consultiva. Se surgir um roteiro complexo ou fora do padrão, ela faz a passagem de bastão imediata avisando que a Maristela já está consultando as melhores condições no sistema da Azul para responder agora.
+                  </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-card">
+                  <div class="faq-question">
+                    <span style="color: var(--azul-brand);">P:</span> Por que a entrada de R$ 2.000 e o saldo só após 30 dias?
+                  </div>
+                  <div class="faq-answer">
+                    Porque temos total confiança no resultado. Só o cancelamento do seu CRM antigo já economiza R$ 4.800 no ano (R$ 400/mês), o que cobre todo o investimento e ainda sobra lucro limpo de R$ 1.300 no seu caixa.
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Faixa Contábil Inabalável -->
               <div style="margin-top: 10px; background: var(--accent-emerald-soft); border: 1px solid var(--accent-emerald-border); border-radius: var(--radius-sm); padding: 8px 12px; font-size: 0.76rem; color: var(--accent-emerald-text); text-align: center; font-weight: 600;">
-                💰 <strong>A Matemática Inabalável do Seu Caixa:</strong> O cancelamento do seu CRM antigo economiza <strong>R$ 4.800/ano</strong>, cobrindo todo o investimento de R$ 3.500 e ainda deixando <strong>+R$ 1.300,00 de sobra líquida</strong> no caixa da loja!
+                💰 <strong>A Matemática Inabalável do Seu Caixa:</strong> O cancelamento do seu CRM antigo economiza <strong>R$ 4.800/ano</strong>, cobrindo todo o investimento de R$ 3.500 e ainda deixando <strong>+R$ 1.300,00 de sobra líquida</strong> no caixa da agência!
               </div>
             </div>
 
@@ -2320,84 +2503,243 @@
         </section>
 
         <!-- ==========================================
-             SLIDE 14: BLINDAGEM DE FECHAMENTO & QUEBRA DE OBJEÇÕES PRESENCIAIS
-             (CONTEÚDO DO PASSO 6 - SEÇÃO 4)
+             SLIDE 14: PROPOSTA COMERCIAL OFICIAL DE PRESTAÇÃO DE SERVIÇOS
+             (DOCUMENTO FORMAL EXECUTIVO - IDÊNTICO AO SLIDE 14 DE CAMILA MORAES)
         =========================================== -->
         <section class="deck-slide" data-slide="14">
-          <div style="text-align: center; max-width: 820px; margin: 0 auto;">
-            <div class="slide-kicker" style="justify-content: center;">
-              <span class="slide-kicker-badge" style="background: #EFF6FF; color: var(--azul-vibrant);">BLINDAGEM COMERCIAL</span>
-              <span class="kicker-sep">/</span>
-              <span>RESPOSTAS DIRETAS & MATADORAS</span>
-            </div>
+          <h2 class="proposal-h2" style="margin-bottom: 0.35rem;">PROPOSTA COMERCIAL OFICIAL DE PRESTAÇÃO DE SERVIÇOS</h2>
+          <p class="proposal-desc" style="margin-bottom: 1rem;">
+            Documento executivo formalizado contendo quadro de entregáveis, investimentos e cronograma operacional:
+          </p>
 
-            <h2 class="proposal-h1" style="font-size: 2rem; margin-bottom: 0.5rem;">
-              RESPOSTAS DIRETAS PARA AS 3 PRINCIPAIS DÚVIDAS
-            </h2>
-            <p class="proposal-desc" style="margin: 0 auto 1.25rem; font-size: 0.88rem;">
-              Tudo o que você e o seu sócio precisam saber para tomar a decisão com 100% de segurança agora:
-            </p>
-
-            <div style="display: flex; flex-direction: column; gap: 0.9rem; text-align: left;">
+          <div class="doc-preview-wrapper">
+            <div class="doc-sheet">
               
-              <!-- Objeção 1 -->
-              <div class="card-clean objection-card" style="border-left: 4px solid var(--azul-vibrant); padding: 1.15rem 1.35rem;">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; flex-wrap: wrap; gap: 6px;">
-                  <span style="font-size: 0.68rem; font-weight: 800; text-transform: uppercase; color: #EF4444; background: #FEF2F2; padding: 2px 8px; border-radius: var(--radius-pill);">
-                    Dúvida 1 · Decisão em Conjunto
-                  </span>
-                  <span style="font-size: 0.72rem; color: var(--azul-brand); font-weight: 700;">Visão de Negócio</span>
-                </div>
-                <div style="font-weight: 800; font-size: 0.9rem; color: var(--ink-dark); margin-bottom: 4px;">
-                  "Deixa eu conversar com meu marido / sócio com calma"
-                </div>
-                <div style="font-size: 0.8rem; color: var(--ink-secondary); line-height: 1.45;">
-                  <strong>A Resposta Prática:</strong> Ele tem tudo a ver com isso! Lembra que foi ele quem primeiro me falou da visão de expansão de marketing? Nós podemos ligar para ele agora ou gravar um áudio de 1 minuto mostrando que só a economia de R$ 400 do CRM antigo já financia o projeto, e que a validação na loja vai nos permitir empacotar e oferecer essa máquina para outras franquias Azul Viagens pelo estado.
-                </div>
-              </div>
+              <!-- Tabela de Cabecalho / Identificacao das Partes -->
+              <table class="doc-meta-table">
+                <tr>
+                  <td style="width: 55%; border-right: 2px solid #003399; background: #F8FAFC;">
+                    <div style="font-size: 0.65rem; font-weight: 800; color: #0052CC; text-transform: uppercase; letter-spacing: 0.05em;">PRESTADOR DE SERVIÇOS</div>
+                    <div style="font-size: 1.05rem; font-weight: 800; color: #003399; margin: 2px 0;">Lucas · Estruturação Comercial & Automação Inteligente</div>
+                    <div style="font-size: 0.72rem; color: #475569;">Assessoria em Vendas & Aquisição para Franquias de Turismo · Matão/SP</div>
+                    <div style="font-size: 0.72rem; color: #0F172A; font-weight: 600; margin-top: 2px;">WhatsApp Direto: (11) 95762-2191</div>
+                  </td>
+                  <td style="width: 45%;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 3px;">
+                      <span style="font-size: 0.68rem; font-weight: 800; color: #64748B;">PROPOSTA Nº:</span>
+                      <strong style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: #003399;">2026-AVM01</strong>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 3px;">
+                      <span style="font-size: 0.68rem; font-weight: 800; color: #64748B;">DATA DE EMISSÃO:</span>
+                      <span style="font-size: 0.72rem; color: #0F172A;">13 de Novembro de 2026</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 3px;">
+                      <span style="font-size: 0.68rem; font-weight: 800; color: #64748B;">VALIDADE:</span>
+                      <span style="font-size: 0.72rem; color: #10B981; font-weight: 700;">7 dias úteis</span>
+                    </div>
+                    <div style="border-top: 1px dashed #CBD5E1; padding-top: 4px; margin-top: 4px;">
+                      <div style="font-size: 0.65rem; font-weight: 800; color: #64748B;">CONTRATANTE:</div>
+                      <strong style="font-size: 0.78rem; color: #003399;">Maristela</strong> <span style="font-size: 0.7rem; color: #475569;">(Azul Viagens Matão · Franquia de Turismo)</span>
+                    </div>
+                  </td>
+                </tr>
+              </table>
 
-              <!-- Objeção 2 -->
-              <div class="card-clean objection-card" style="border-left: 4px solid var(--accent-emerald); padding: 1.15rem 1.35rem;">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; flex-wrap: wrap; gap: 6px;">
-                  <span style="font-size: 0.68rem; font-weight: 800; text-transform: uppercase; color: #D97706; background: #FEF3C7; padding: 2px 8px; border-radius: var(--radius-pill);">
-                    Dúvida 2 · Dependência Tecnológica
-                  </span>
-                  <span style="font-size: 0.72rem; color: var(--accent-emerald-text); font-weight: 700;">Suporte Físico</span>
-                </div>
-                <div style="font-weight: 800; font-size: 0.9rem; color: var(--ink-dark); margin-bottom: 4px;">
-                  "Tenho medo de ficar dependente de tecnologia e o sistema travar"
-                </div>
-                <div style="font-size: 0.8rem; color: var(--ink-secondary); line-height: 1.45;">
-                  <strong>A Resposta Prática:</strong> Eu moro literalmente na rua de trás da agência. Qualquer dúvida, ajuste de pacote da Azul ou calibração de prompt, levo 2 minutos a pé para estar dentro da sua loja ao seu lado. Você terá suporte presencial prioritário nos primeiros 30 dias para garantir que tudo funcione com perfeição.
-                </div>
-              </div>
+              <!-- Secao 1: Objeto -->
+              <div class="doc-section-h3">1. OBJETO DA PROPOSTA</div>
+              <p style="font-size: 0.78rem; color: #334155; line-height: 1.55; margin-bottom: 0.85rem;">
+                A presente proposta estabelece os termos para a criação, implantação técnica, gestão e operação do <strong>Sistema Comercial Autônomo de Alta Conversão</strong> da agência <strong>Azul Viagens Matão</strong>, com foco na triagem imediata de cotações de pacotes turísticos 24/7 no WhatsApp (SDR Sofia), substituição do software desconectado por CRM integrado nativo e geração contínua de famílias qualificadas via tráfego local no Meta Ads e Google Ads.
+              </p>
 
-              <!-- Objeção 3 -->
-              <div class="card-clean objection-card" style="border-left: 4px solid #F59E0B; padding: 1.15rem 1.35rem;">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; flex-wrap: wrap; gap: 6px;">
-                  <span style="font-size: 0.68rem; font-weight: 800; text-transform: uppercase; color: #991B1B; background: #FEE2E2; padding: 2px 8px; border-radius: var(--radius-pill);">
-                    Dúvida 3 · Fluxo de Caixa Imediato
-                  </span>
-                  <span style="font-size: 0.72rem; color: #B45309; font-weight: 700;">Custo de Inação</span>
-                </div>
-                <div style="font-weight: 800; font-size: 0.9rem; color: var(--ink-dark); margin-bottom: 4px;">
-                  "R$ 2.000 de entrada hoje fica apertado no meu caixa agora"
-                </div>
-                <div style="font-size: 0.8rem; color: var(--ink-secondary); line-height: 1.45;">
-                  <strong>A Resposta Prática:</strong> Cada semana sem o sistema são pelo menos 2 a 3 cotações que você perde no balcão. Isso representa perder mais de R$ 20.000 em vendas todo mês. Continuar sem a triagem da Sofia custa 10 vezes mais caro do que a entrada de R$ 2.000. Se for o caso, podemos passar a entrada no cartão, mas não faz sentido você continuar perdendo contratos todo dia.
-                </div>
+              <!-- Secao 2: Escopo Completo dos Entregaveis Tabelado -->
+              <div class="doc-section-h3">2. QUADRO DETALHADO DE ENTREGÁVEIS (SETUP CHAVE NA MÃO)</div>
+              
+              <table class="doc-table">
+                <thead>
+                  <tr>
+                    <th style="width: 24%;">Pilar Operacional</th>
+                    <th style="width: 44%;">Entregáveis Contratados</th>
+                    <th style="width: 32%;">Especificações Técnicas & Padrão</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong style="color: #0052CC; font-size: 0.8rem;">PILAR 01</strong><br>
+                      <strong style="color: #0F172A;">Atração Qualificada & Tráfego Local</strong>
+                    </td>
+                    <td>
+                      • <strong>Meta Ads (Instagram & Facebook):</strong> Campanhas de pacotes em 10x sem juros para famílias de Matão.<br>
+                      • <strong>Google Ads (Rede de Pesquisa):</strong> Termos de alta intenção ("Azul Viagens Matão", "pacotes resort").<br>
+                      • <strong>Rastreamento FunnelMax:</strong> Atribuição cirúrgica de origem de cada lead no WhatsApp.
+                    </td>
+                    <td>
+                      Segmentação local no raio de Matão e cidades vizinhas. Geração contínua de 15 a 25 novas conversas qualificadas por dia no WhatsApp da agência.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong style="color: #10B981; font-size: 0.8rem;">PILAR 02</strong><br>
+                      <strong style="color: #0F172A;">Sofia SDR 24/7 (Triagem Humana)</strong>
+                    </td>
+                    <td>
+                      • <strong>Atendimento Imediato em 5s:</strong> Respostas 24 horas por dia sem filas.<br>
+                      • <strong>Cadência Fragmentada:</strong> 1 a 2 linhas por mensagem simulando atendimento consultivo real.<br>
+                      • <strong>Triagem Obrigatória Azul:</strong> Coleta de datas, passageiros e idade exata das crianças.<br>
+                      • <strong>Ancoragem Prévia 10x:</strong> Filtro de valor antes da cotação formal.
+                    </td>
+                    <td>
+                      Eliminação total do ralo de mensagens perdidas à noite e nos domingos. Sofia não usa emojis artificiais e passa a ficha preenchida para a Maristela fechar.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong style="color: #8B5CF6; font-size: 0.8rem;">PILAR 03</strong><br>
+                      <strong style="color: #0F172A;">CRM Nativo & Economia de Software</strong>
+                    </td>
+                    <td>
+                      • <strong>Pipeline Kanban Integrado:</strong> Ficha automática criada em 2 segundos na coluna "Leads Qualificados".<br>
+                      • <strong>Alerta Imediato no WhatsApp:</strong> Notificação instantânea para a Maristela.<br>
+                      • <strong>Cancelamento do CRM Legado:</strong> Substitui o sistema desconectado atual.
+                    </td>
+                    <td>
+                      <strong>Economia líquida garantida de R$ 4.800,00 por ano</strong> (corte dos R$ 400/mês do CRM antigo), pagando todo o investimento e gerando lucro de caixa.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong style="color: #F59E0B; font-size: 0.8rem;">PILAR 04</strong><br>
+                      <strong style="color: #0F172A;">Pós-Venda & Máquina de LTV</strong>
+                    </td>
+                    <td>
+                      • <strong>Acolhimento Automático Pós-Viagem:</strong> Mensagem de boas-vindas no retorno.<br>
+                      • <strong>Reativação da Carteira Antiga:</strong> Disparos sazonais em feriados, férias e Réveillon.<br>
+                      • <strong>Vendas Sem Anúncios:</strong> Recuperação de famílias que já compraram antes.
+                    </td>
+                    <td>
+                      Aumento do valor do tempo de vida do cliente (LTV), gerando de R$ 40.000 a R$ 60.000 em vendas adicionais por ano a custo zero de mídia.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong style="color: #003399; font-size: 0.8rem;">PILAR 05</strong><br>
+                      <strong style="color: #0F172A;">Servidor 24/7 & Presença de 30 Dias</strong>
+                    </td>
+                    <td>
+                      • <strong>Servidor em Nuvem Dedicado:</strong> Hospedagem e infraestrutura técnica 100% pagas por nós.<br>
+                      • <strong>Acompanhamento Presencial de 30 Dias:</strong> Presença física na agência na rua de trás.<br>
+                      • <strong>Calibração Contínua:</strong> Ajuste fino dos prompts da Sofia e apoio nas metas.
+                    </td>
+                    <td>
+                      Suporte presencial exclusivo com deslocamento a pé em 2 minutos. Alinhamento estratégico semanal para garantir que as metas da Azul sejam batidas.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Secao 3: Quadro de Investimento Tabelado -->
+              <div class="doc-section-h3">3. QUADRO DE INVESTIMENTO & FORMAS DE PAGAMENTO</div>
+              
+              <table class="doc-table">
+                <thead>
+                  <tr>
+                    <th style="width: 28%;">Modalidade Contratual</th>
+                    <th style="width: 44%;">Escopo & Benefícios Inclusos</th>
+                    <th style="width: 28%;">Condição Financeira</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="highlight-row">
+                    <td>
+                      <strong style="color: #003399; font-size: 0.82rem;">Opção 1 · Setup Chave na Mão</strong><br>
+                      <span class="badge-recommended">Recomendado</span>
+                    </td>
+                    <td>
+                      Implantação completa dos 5 pilares: Tráfego Local (Meta + Google Ads) + Sofia SDR 24/7 + CRM Nativo Integrado + Máquina de Pós-Venda + 30 dias de acompanhamento presencial na agência.
+                    </td>
+                    <td>
+                      <strong style="font-size: 1.15rem; color: #003399;">R$ 3.500,00</strong><br>
+                      <span style="font-size: 0.72rem; color: #10B981; font-weight: 700;">Entrada R$ 2.000 via PIX hoje</span><br>
+                      <span style="font-size: 0.68rem; color: #64748B;">Saldo R$ 1.500 em 30 dias</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong style="color: #0F172A; font-size: 0.82rem;">Retorno Contábil Garantido</strong>
+                    </td>
+                    <td>
+                      Cancelamento da mensalidade do CRM antigo desconectado (economia contábil fixa de R$ 400,00 por mês).
+                    </td>
+                    <td>
+                      <strong style="font-size: 1.05rem; color: #10B981;">+R$ 4.800,00 / ano</strong><br>
+                      <span style="font-size: 0.72rem; color: #10B981; font-weight: 700;">Lucro Líquido no Caixa</span><br>
+                      <span style="font-size: 0.68rem; color: #64748B;">*Paga 100% do setup e sobra R$ 1.300</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Secao 4: Cronograma Operacional Tabelado -->
+              <div class="doc-section-h3">4. CRONOGRAMA DE ATIVAÇÃO & PRAZOS OPERACIONAIS (SLA)</div>
+              
+              <table class="doc-table">
+                <thead>
+                  <tr>
+                    <th style="width: 18%;">Prazo</th>
+                    <th style="width: 38%;">Fase Operacional</th>
+                    <th style="width: 44%;">Entregável Técnico Validado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong style="color: #0052CC;">Semana 01</strong></td>
+                    <td><strong>Setup de Servidor & WhatsApp</strong></td>
+                    <td>Servidor 24/7 dedicado ativo, conexão do número oficial do WhatsApp da agência e integração com API.</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: #10B981;">Semana 02</strong></td>
+                    <td><strong>Calibração da Sofia & CRM</strong></td>
+                    <td>Sofia configurada com regras oficiais da Azul Viagens (crianças, voos e hotéis) + Kanban pronto para fichas.</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: #8B5CF6;">Semana 03+</strong></td>
+                    <td><strong>Tráfego Ativo & Vendas no Balcão</strong></td>
+                    <td>Campanhas ativas no Meta Ads e Google Ads, cotações triadas em 5s e acompanhamento presencial de fechamento.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Secao 5: Termo de Aceite & Assinaturas Tabelado -->
+              <div class="doc-section-h3">5. TERMO DE ACEITE & ASSINATURA DAS PARTES</div>
+              
+              <table class="doc-table" style="margin-bottom: 1.25rem;">
+                <tr>
+                  <td style="width: 50%; padding: 14px; background: #F8FAFC;">
+                    <div style="font-size: 0.68rem; font-weight: 800; color: #64748B; text-transform: uppercase;">CONTRATADO:</div>
+                    <div style="font-size: 0.95rem; font-weight: 800; color: #003399; margin: 4px 0;">Lucas</div>
+                    <div style="font-size: 0.72rem; color: #475569;">Especialista em Estruturação Comercial & Automação Inteligente</div>
+                    <div style="font-size: 0.68rem; color: #10B981; font-weight: 700; margin-top: 4px;">Assinado digitalmente em 13/11/2026</div>
+                  </td>
+                  <td style="width: 50%; padding: 14px; background: #F8FAFC;">
+                    <div style="font-size: 0.68rem; font-weight: 800; color: #64748B; text-transform: uppercase;">CONTRATANTE:</div>
+                    <div style="font-size: 0.95rem; font-weight: 800; color: #003399; margin: 4px 0;">Maristela</div>
+                    <div style="font-size: 0.72rem; color: #475569;">Azul Viagens Matão (Franquia de Turismo)</div>
+                    <div style="font-size: 0.68rem; color: #0052CC; font-weight: 700; margin-top: 4px;">Termo de Aceite via Confirmação Eletrônica</div>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Botao de Acao Oficial -->
+              <div style="text-align: center; margin-top: 1rem;">
+                <a href="https://wa.me/5511957622191?text=Oi%20Lucas!%20Li%20a%20proposta%20comercial%20da%20Azul%20Viagens%20e%20quero%20iniciar%20a%20ativa%C3%A7%C3%A3o!" target="_blank" style="background: #003399; color: #FFFFFF; text-decoration: none; padding: 14px 28px; border-radius: 8px; font-size: 0.88rem; font-weight: 800; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 4px 16px rgba(0, 51, 153, 0.25); text-transform: uppercase; letter-spacing: 0.02em;">
+                  <span>Aceitar Proposta Comercial & Iniciar pelo WhatsApp</span>
+                  <svg class="icon-svg" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
               </div>
 
             </div>
-
-            <!-- Botão de Start Final -->
-            <div style="margin-top: 1.25rem;">
-              <button onclick="goToSlide(12)" style="background: linear-gradient(135deg, #003399 0%, #0052CC 100%); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 12px 28px; border-radius: var(--radius-sm); border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 51, 153, 0.3); text-transform: uppercase; letter-spacing: 0.05em;">
-                ← Voltar para a Proposta & Concluir Start Imediato
-              </button>
-            </div>
-
           </div>
+
         </section>
 
       </div>
@@ -2545,16 +2887,13 @@
       const diffX = touchEndX - touchStartX;
       const diffY = touchEndY - touchStartY;
       
-      // Apenas considera se o movimento horizontal for maior que o vertical
       if (Math.abs(diffX) > 60 && Math.abs(diffX) > Math.abs(diffY)) {
         if (diffX < 0) {
-          // Swipe para a esquerda (Avançar)
           if (current === 11 && !(pactState[1] && pactState[2] && pactState[3])) {
-            return; // Bloqueado no Slide 12
+            return;
           }
           goToSlide(current + 1);
         } else {
-          // Swipe para a direita (Voltar)
           goToSlide(current - 1);
         }
       }
@@ -2622,7 +2961,6 @@
         const colors = ['#0052CC', '#10B981', '#8B5CF6', '#F59E0B'];
         const color = colors[idx];
 
-        // Linha Raiz -> Pilar
         const pathRootToPillar = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         const cx1 = xRoot + (xPillarLeft - xRoot) * 0.5;
         const cx2 = xPillarLeft - (xPillarLeft - xRoot) * 0.5;
@@ -2630,11 +2968,9 @@
         pathRootToPillar.setAttribute('stroke', color);
         pathRootToPillar.setAttribute('stroke-width', '2');
         pathRootToPillar.setAttribute('fill', 'none');
-        pathRootToPillar.setAttribute('stroke-dasharray', 'none');
         pathRootToPillar.setAttribute('opacity', '0.65');
         svg.appendChild(pathRootToPillar);
 
-        // Se o pilar estiver expandido, conecta aos sub-cards
         const col = document.getElementById(`childrenLight_${key}`);
         if (col && col.classList.contains('open')) {
           const leaves = col.querySelectorAll('.mm-leaf-node-light');
