@@ -4,14 +4,14 @@
 
 ---
 
-## 📱 100% Responsivo para Mobile, Tablet e Desktop
+## [Responsividade] 100% Responsivo para Mobile, Tablet e Desktop
 A apresentação conta com design editorial responsivo inspirado no macOS Sonoma e adaptação total para dispositivos móveis:
 - **Smartphones e Tablets:** Layout fluido em coluna única, redimensionamento dinâmico de fontes e cards, seletor horizontal superior para as conversas do WhatsApp (idêntico ao app mobile) e suporte a gestos touch (**Swipe** para esquerda/direita).
 - **Desktop:** Experiência nativa macOS Keynote com janela flutuante, docking station inferior, mapas mentais interativos com conexões Bézier dinâmicas e vídeos WebM integrados.
 
 ---
 
-## 🚀 Como Executar
+## [Execução] Como Executar
 
 ### 1. Visualização Direta no Navegador (Local)
 Basta abrir o arquivo [`index.html`](index.html) ou [`apresentacao_pitch_executivo.html`](apresentacao_pitch_executivo.html) em qualquer navegador moderno (Chrome, Safari, Edge, Firefox, Brave) no computador ou celular.
@@ -26,7 +26,7 @@ https://lucasfernandescopywriter.github.io/azul-viagens-maristela/
 
 ---
 
-## ⌨️ Controles e Navegação
+## [Navegação] Controles e Teclas
 
 - **Computador / Desktop:**
   - `Seta para a Direita` (`→`) ou `Barra de Espaço`: Avançar slide
@@ -41,7 +41,7 @@ https://lucasfernandescopywriter.github.io/azul-viagens-maristela/
 
 ---
 
-## 📑 Índice dos 14 Slides da Apresentação
+## [Estrutura] Índice dos 14 Slides da Apresentação
 
 1. **Slide 01:** Business Proposal & Promessa Black de Faturamento
 2. **Slide 02:** Diagnóstico Operacional: O Ralo Invisível no Balcão
@@ -60,7 +60,7 @@ https://lucasfernandescopywriter.github.io/azul-viagens-maristela/
 
 ---
 
-## 📂 Estrutura de Arquivos
+## [Arquivos] Estrutura do Repositório
 
 ```text
 ├── index.html                           # Ponto de entrada padrão (otimizado para GitHub Pages)

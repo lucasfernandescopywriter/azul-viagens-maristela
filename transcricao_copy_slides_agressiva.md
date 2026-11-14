@@ -146,8 +146,8 @@
 * **Título Principal:** A DECISÃO COMERCIAL MAIS LUCRATIVA DO SEU ANO
 * **Condição de Início Imediato:**
   * **Setup Completo Chave na Mão:** R$ 3.500,00 *(Âncora de Mercado: R$ 15.000,00 · Economia de R$ 11.500)*.
-  * **Entrada de R$ 2.000,00 via PIX HOJE** *(start técnico imediato nos servidores e Sofia)*.
-  * **Saldo de R$ 1.500,00 em 30 dias** *(somente após o sistema rodando e a primeira venda validada)*.
+  * **Opção 1 · À Vista / Entrada Facilitada:** R$ 3.500,00 no PIX hoje, ou Entrada de R$ 2.000,00 via PIX HOJE + Saldo de R$ 1.500,00 em 30 dias *(somente após sistema rodando e primeira venda validada)*.
+  * **Opção 2 · Parcelamento Facilitado:** **4x de R$ 1.200,00** mensais *(investimento diluído no fluxo de caixa, custo 100% compensado pelo corte anual do CRM legado de R$ 4.800)*.
 * **Presente de Ação Imediata (Fast-Action Box):** Fechando e dando o start hoje, disparo de reativação imediata da base antiga de clientes sem custo extra de anúncio + acompanhamento presencial de 30 dias na agência.
 * **FAQ Matador de Micro-Objeções (Grid de 4 Cards):**
   1. *Preciso de muita verba para anúncios locais?* → Não, com R$ 15 a R$ 20/dia já cobrimos a cidade e atraímos de 15 a 25 famílias qualificadas.
@@ -169,7 +169,10 @@
     * Pilar 03: CRM Nativo & Economia de Software (Kanban automático, economia de R$ 4.800/ano).
     * Pilar 04: Pós-Venda & Máquina de LTV (+R$ 40k a R$ 60k/ano em vendas da base antiga).
     * Pilar 05: Servidor 24/7 Dedicado & Acompanhamento Presencial de 30 Dias na agência.
-  * **Seção 3: Quadro de Investimento & Condições Financeiras:** Setup R$ 3.500 (R$ 2.000 PIX hoje + R$ 1.500 em 30 dias). Retorno Contábil Garantido (+R$ 4.800/ano).
+  * **Seção 3: Quadro de Investimento & Condições Financeiras:**
+    * **Opção 1 · Setup Chave na Mão:** R$ 3.500,00 (Entrada R$ 2.000 via PIX hoje + Saldo R$ 1.500 em 30 dias).
+    * **Opção 2 · Parcelamento Facilitado:** 4x de R$ 1.200,00 mensais (Total parcelado: R$ 4.800,00 — fluxo de caixa suave).
+    * **Retorno Contábil Garantido:** +R$ 4.800,00/ano em economia líquida pelo cancelamento imediato do CRM antigo desconectado.
   * **Seção 4: Cronograma de Ativação & Prazos Operacionais (SLA):** Semana 1 Setup e Servidor; Semana 2 Calibração Sofia e CRM; Semana 3+ Tráfego Ativo e Fechamento no Balcão.
   * **Seção 5: Termo de Aceite & Assinatura das Partes:** Assinatura digital do Lucas e confirmação eletrônica da Maristela.
   * **Botão Oficial de Ação:** `Aceitar Proposta Comercial & Iniciar pelo WhatsApp`.
